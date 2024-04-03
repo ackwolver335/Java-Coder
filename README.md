@@ -88,7 +88,7 @@ Below we have the explanation regarding the key elements in the above syntax :-
 - **Double** : This data type is used for storing the double precision values in the Source code.
 - **Char** : This data type is used for storing the character in any particular variable.
 
-- Note : Code is in the Basic.java file above in the Repo.
+Note : Code is in the Basic.java file above in the Repo.
 
 ### Social Media Links :
 
