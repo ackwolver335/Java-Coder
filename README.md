@@ -79,6 +79,8 @@ Below we have the explanation regarding the key elements in the above syntax :-
 
 ## Data Types : 
 
+### Primitive
+
 - **Boolean** : Used to store the true (1) or false (0).
 - **Byte** : This data type is useful in saving the memory space in case for working with large arrays.
 - **Short** : This data type comes under the category of integer of 16 bit storage.
@@ -89,6 +91,67 @@ Below we have the explanation regarding the key elements in the above syntax :-
 - **Char** : This data type is used for storing the character in any particular variable.
 
 Note : Code is in the Basic.java file above in the Repo.
+
+### Non-Primitive
+
+- **String** : It is a kind of data type which is known from its other standard line, sequence of characters
+
+Syntax Code : 
+
+```
+String str1 = "This is a simple string in JAVA";
+```
+
+- **Class** : It is a kind of user-defined data type in JAVA also in different programming languages which is created in order to create an entity or object in the main class [Source Code]
+
+Syntax Code :
+
+```
+class Class_name{
+    // class members
+    public int number = 12;
+
+    // class methods
+    public void display(){
+        System.out.println("Display Function here !");
+    }
+}
+```
+
+- **Object** : It is a kind of entity created in order to use the class here !
+
+Syntax Code :
+
+```
+class First{
+
+}
+
+class Class_main{
+    public static void main(String[] a){
+        First obj1 = new First();
+    }
+}
+```
+
+- **Interface** : Interfaces specify what a class must do and not how. It is the blueprint of the class.
+
+Syntax Code : 
+
+```
+interface interface_name{
+    // inteface members
+    // inteface methods but not defined
+}
+```
+
+- **Arrays** : An Array is a group of like-typed variables that are referred to by a common name.
+
+Syntax Code : 
+
+```
+datatype array_name = new datatype[length];
+```
 
 ### Social Media Links :
 
