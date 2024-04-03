@@ -1,4 +1,3 @@
-# Java-Coder
-Repo Info - It contains the overall Basics and Professionals regarding JAVA Programming Language.
-<br>
-Author - <b>Abhay Chaudhary (Ack Wolver)</b>
+![LOGO](https://www.canva.com/design/DAGBYKHw39o/1950zMfGuTmEU6JzbJ-mvg/edit?utm_content=DAGBYKHw39o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+# Basics of JAVA
