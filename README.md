@@ -54,14 +54,14 @@ class Class_name{
 
 For running the Code [Window] :
 
-```
+```bash
 javac file_name.java
 java file_name
 ```
 
 Code Output : 
 
-```
+```bash
 Hello World !
 ```
 
@@ -76,6 +76,19 @@ Below we have the explanation regarding the key elements in the above syntax :-
 - main() : This is the method from where the execution of the program starts from, without this we used to face compile error !
 - String[] args : It specific that the user may opt to enter parameters to the JAVA Program. Both forms String[] args or String args[] are acceptable by the compiler.
 - System.out.println : This is used to print anything on the console or the output screen.
+
+## Data Types : 
+
+- **Boolean** : Used to store the true (1) or false (0).
+- **Byte** : This data type is useful in saving the memory space in case for working with large arrays.
+- **Short** : This data type comes under the category of integer of 16 bit storage.
+- **Int** : This data type is used for storing the numerical values within a particular limit.
+- **Long** : This data type is used for storing the unsigned 64-bit numbers at a large storage limit.
+- **Float** : This data type is used for storing the 32-bit decimal pointing integers in Source Code.
+- **Double** : This data type is used for storing the double precision values in the Source code.
+- **Char** : This data type is used for storing the character in any particular variable.
+
+- Note : Code is in the Basic.java file above in the Repo.
 
 ### Social Media Links :
 
