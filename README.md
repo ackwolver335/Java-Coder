@@ -1,3 +1,3 @@
-![Github Logo](https://github.com/ackwolver335/Java-Coder/assets/103741432/33873c93-ac9a-4d05-9246-a3919caa388c)
+![Coding1](https://github.com/ackwolver335/Java-Coder/assets/103741432/bd0c0259-3ac4-48f5-9296-3f94329347f2)
 
 # Basics of JAVA
