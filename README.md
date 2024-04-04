@@ -153,6 +153,106 @@ Syntax Code :
 datatype array_name = new datatype[length];
 ```
 
+## Input/Output Methods :
+
+Below we have some packages to be used while working with Inputs and Outputs :
+
+- Buffered Reader
+- Input Stream Reader
+- java.io
+- Scanner
+
+### Input Methods :
+
+- **Buffered Reader** : It is a simple class that is used to read a sequence of characters. It has a simple function that reads a character another read which reads, an array of characters, and a readLine() function which reads a line.
+- **Input Stream Reader** : InputStreamReader() is a function that converts the input stream of bytes into a stream of characters so that it can be read as BufferedReader expects a stream of characters. BufferedReader can throw checked Exceptions.
+
+Syntax Code :
+
+```
+import java.io.*;
+// BufferedReader and Input Stream Reader both are included above
+
+class Sample{
+    public static void main(String[] a){
+        // Using Buffered Reader Class
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.print("Enter some string text : ");
+        String data = reader.readLine();
+
+        System.out.print("Enter a numerical value : ");
+        int number = Integer.parseInt(reader.readLine());
+
+        System.out.println("Entered String is : " + data + "\nEntered Number is : " + number);
+    }
+}
+```
+
+Note : Further Explanation is given in the Inout.java file above.
+
+- **Scanner** : It is an advanced version of BufferedReader which was added in later versions of Java. The scanner can read formatted input. It has different functions for different types of data types. 
+
+Syntax Code :
+
+```
+// Required Package Below
+import java.util.*;
+
+class Sample{
+    public static void main(String[] a){
+        // Creating Scanner Object
+        Scanner scn = new Scanner(System.in);
+
+        String name;
+        System.out.print("Enter your name : ");
+        name = scn.nextLine();
+    }
+}
+```
+
+Other Methods for taking Different Data type input is been given below :
+
+- **next()** : Used to get single word of input.
+- **nextLine()** : Used to get a sentence of textual string input.
+- **nextBoolean()** : Used to take a Boolean Input.
+- **nextByte()** : Used to get single Byte of Input.
+- **nextDouble** : Used to take Double Data Type of Input.
+- **nextFloat()** : Used to get a Float Input.
+- **nextInt()** : Used to take any Integer value as Input.
+- **nextLong()** : Used to get a Long Value of Input.
+- **nextShort()** : Used for reading any short value.
+
+Note : Further Code Explanation is been given in the Code File name "Inout.java".
+
+### Output Methods :
+
+Following are different methods for learning Output Methods in JAVA :
+
+- print() : Used for printing a single line without its EOL[End of Line].
+- println() : Used for printing a whole line of text Output with its proper ending.
+- printf() : Used for printing the formatted text output without EOL.
+
+Syntax Code : 
+
+```
+class Sample{
+    public static void main(String[] a){
+
+        // Simple Textual Content
+        System.out.println("Println() method code output !");               // println()
+        System.out.print("Simple print() method : ");                       // print()
+
+        // printf() method for formatted String
+        char c = 'a';
+        printf("Formatted Character to Upper Case : %C",c);
+
+    }
+}
+```
+
+Note : More explanation is available in the "Inout.java" Code File.
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
