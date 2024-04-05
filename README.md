@@ -253,6 +253,26 @@ class Sample{
 
 Note : More explanation is available in the "Inout.java" Code File.
 
+## Operators :
+
+Categories of Operators : 
+
+- **Arithmetic Operator** : These operators involve the mathematical operators that can be used to perform various simple or advanced arithmetic operations on the primitive data types referred to as the operands.
+
+- **Unary Operator** : Java unary operators are the types that need only one operand to perform any operation like increment, decrement, negation, etc. It consists of various arithmetic, logical and other operators that operate on a single operand.
+
+- **Assignment Operator** : These operators are used to assign values to a variable. The left side operand of the assignment operator is a variable, and the right side operand of the assignment operator is a value.
+
+- **Relational Operator** : Java Relational Operators are a bunch of binary operators used to check for relations between two operands, including equality, greater than, less than, etc. They return a boolean result after the comparison and are extensively used in looping statements as well as conditional if-else statements and so on.
+
+- **Logical Operator** : Logical operators are used to perform logical “AND”, “OR” and “NOT” operations, i.e. the function similar to AND gate and OR gate in digital electronics.
+
+- **Ternary Operator** : Java ternary operator is the only conditional operator that takes three operands. It’s a one-liner replacement for the if-then-else statement and is used a lot in Java programming.
+
+- **Bitwise Operator** : Operators constitute the basic building block of any programming language. Java too provides many types of operators which can be used according to the need to perform various calculations and functions, be it logical, arithmetic, relational, etc.
+
+Note : The Code examples are given in the code file named as "operatr.java" above.
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
