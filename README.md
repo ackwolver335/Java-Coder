@@ -273,6 +273,75 @@ Categories of Operators :
 
 Note : The Code examples are given in the code file named as "operatr.java" above.
 
+## Variables in JAVA 
+
+In Java, Variables are the data containers that save the data values during Java program execution. Every Variable in Java is assigned a data type that designates the type and quantity of value it can hold. A variable is a memory location name for the data.
+
+### Categories of Variables :
+
+Below we have different categories of variables with example explanation :-
+
+- **Local** : A variable defined within a block or method or constructor is called a local variable.These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
+
+Syntax Code : 
+
+```
+class Sample{
+    public statc void main(String[] a){
+        
+        // defining a local variable here
+        int number = 12;
+
+        // Local to main method only
+        System.out.println("Local variable : " + number);
+    }
+}
+```
+
+- **Instance** : Instance variables are non-static variables and are declared in a class outside of any method, constructor, or block.As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+
+Syntax Code :
+
+```
+class Sample{
+
+    // Creating an instance variable here
+    public int num1 = 12;
+    public int num2 = 22;
+
+    public static void main(String[] a){
+
+        // Accessing instance variable
+        Sample one = new Sample();
+
+        System.out.println("First Instance variable : " + one.num1);
+        System.out.println("Second Instance variable : " + one.num1);
+
+    }
+}
+```
+
+- **Static** : These variables are declared similarly to instance variables. The difference is that static variables are declared using the static keyword within a class outside of any method, constructor, or block.Static variables are created at the start of program execution and destroyed automatically when execution ends.
+
+Syntax Code :
+
+```
+class Sample{
+
+    // Defining a static variable
+    public static int number = 34;
+
+    public static void main(String[] a)[
+
+        // Accessing the static variable here
+        System.out.println("Static variable declared inside the class : " + number);
+
+    ]
+}
+```
+
+Note : Further Explanation is been given in the code file above with name "var1.java".
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
