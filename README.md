@@ -342,6 +342,73 @@ class Sample{
 
 Note : Further Explanation is been given in the code file above with name "var1.java".
 
+## Wrapper Class
+
+A Wrapper class in Java is a class whose object wraps or contains primitive data types. When we create an object to a wrapper class, it contains a field and in this field, we can store primitive data types. In other words, we can wrap a primitive value into a wrapper class object.
+
+### Needs of Wrapper Class : 
+
+- They convert primitive data types into objects. Objects are needed if we wish to modify the arguments passed into a method (because primitive types are passed by value).
+- The classes in java.util package handles only objects and hence wrapper classes help in this case also.
+- Data structures in the Collection framework, such as ArrayList and Vector, store only objects (reference types) and not primitive types.
+- An object is needed to support synchronization in multithreading.
+
+### Major Concepts :
+
+- Autoboxing 
+- Unboxing
+
+#### Autoboxing 
+
+The automatic conversion of primitive types to the object of their corresponding wrapper classes is known as autoboxing. For example – conversion of int to Integer, long to Long, double to Double, etc.
+
+Syntax Code : 
+
+```
+import java.util.*;
+
+class Sample{
+
+    public static void main(String[] a){
+
+        char ch1 = 'a';                             // variable declaration
+        Character c1 = ch1;                         // autoboxing
+
+        ArrayList<Integer> arrlist = new ArrayList<Integer>();
+        arrayList.add(22);                                              // autoboxing
+
+        System.out.println(arrayList.get(0));
+    }
+}
+```
+
+#### Unboxing
+
+It is just the reverse process of autoboxing. Automatically converting an object of a wrapper class to its corresponding primitive type is known as unboxing. For example – conversion of Integer to int, Long to long, Double to double, etc.
+
+Syntax Code :
+
+```
+import java.util.*;
+
+class Sample{
+
+    public static void main(String[] a){
+
+        Character c1 = 'a';                         // variable declaration
+        char ch1 = c1;                              // unboxing
+
+        ArrayList<Integer> arrList = new ArrayList<Integer>();
+        arrList.add(22);
+
+        int num = arrList.get(22);
+        System.out.println(num);
+    }
+}
+```
+
+Note : Proper Code will be given in the file name as "wrap.java".
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
