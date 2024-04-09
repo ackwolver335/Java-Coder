@@ -407,6 +407,8 @@ class Sample{
 }
 ```
 
+Note : Proper Code will be given in the file name as "wrap.java".
+
 ## Intro to Decision Making 
 
 Decision Making in programming is similar to decision-making in real life. In programming also face some situations where we want a certain block of code to be executed when some condition is fulfilled. 
@@ -417,8 +419,6 @@ Decision Making in programming is similar to decision-making in real life. In pr
 - if-else : The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false? Here comes the else statement. We can use the else statement with the if statement to execute a block of code when the condition is false.
 - nested if : A nested if is an if statement that is the target of another if or else. Nested if statements mean an if statement inside an if statement. Yes, java allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
 - if else if ladder : Here, a user can decide among multiple options.The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that ‘if’ is executed, and the rest of the ladder is bypassed.
-
-Note : Proper Code will be given in the file name as "wrap.java".
 
 ### Social Media Links :
 
