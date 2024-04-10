@@ -90,7 +90,7 @@ Below we have the explanation regarding the key elements in the above syntax :-
 - **Double** : This data type is used for storing the double precision values in the Source code.
 - **Char** : This data type is used for storing the character in any particular variable.
 
-Note : Code is in the Basic.java file above in the Repo.
+Note : Proper code is given at [Basic.java](https://github.com/ackwolver335/Java-Coder/blob/main/Basic.java) Click to go on.
 
 ### Non-Primitive
 
@@ -152,6 +152,8 @@ Syntax Code :
 ```
 datatype array_name = new datatype[length];
 ```
+
+Note : Proper Code is given at [npdata.java](https://github.com/ackwolver335/Java-Coder/blob/main/npdata.java) Click to go on it.
 
 ## Input/Output Methods :
 
@@ -251,7 +253,7 @@ class Sample{
 }
 ```
 
-Note : More explanation is available in the "Inout.java" Code File.
+Note : Proper Code is given on [Inout.java](https://github.com/ackwolver335/Java-Coder/blob/main/Inout.java) Click to go on it.
 
 ## Operators :
 
@@ -271,7 +273,7 @@ Categories of Operators :
 
 - **Bitwise Operator** : Operators constitute the basic building block of any programming language. Java too provides many types of operators which can be used according to the need to perform various calculations and functions, be it logical, arithmetic, relational, etc.
 
-Note : The Code examples are given in the code file named as "operatr.java" above.
+Note : Proper Code is given on [operatr.java](https://github.com/ackwolver335/Java-Coder/blob/main/operatr.java) Click to go on it. 
 
 ## Variables in JAVA 
 
@@ -340,7 +342,7 @@ class Sample{
 }
 ```
 
-Note : Further Explanation is been given in the code file above with name "var1.java".
+Note : Proper code is given on [var1.java](https://github.com/ackwolver335/Java-Coder/blob/main/var1.java) Click to go on it.
 
 ## Wrapper Class
 
@@ -407,7 +409,7 @@ class Sample{
 }
 ```
 
-Note : Proper Code will be given in the file name as "wrap.java".
+Note : Proper Code will be given in the file name as [wrap.java](https://github.com/ackwolver335/Java-Coder/blob/main/wrap.java) Click to go on it.
 
 ## Intro to Decision Making 
 
@@ -419,6 +421,8 @@ Decision Making in programming is similar to decision-making in real life. In pr
 - if-else : The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false? Here comes the else statement. We can use the else statement with the if statement to execute a block of code when the condition is false.
 - nested if : A nested if is an if statement that is the target of another if or else. Nested if statements mean an if statement inside an if statement. Yes, java allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
 - if else if ladder : Here, a user can decide among multiple options.The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that ‘if’ is executed, and the rest of the ladder is bypassed.
+
+Note : Proper Code is given in the file [decision.java](https://github.com/ackwolver335/Java-Coder/blob/main/decision1.java) Click to go on it.
 
 ### Social Media Links :
 
