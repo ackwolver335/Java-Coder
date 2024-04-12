@@ -333,12 +333,12 @@ class Sample{
     // Defining a static variable
     public static int number = 34;
 
-    public static void main(String[] a)[
+    public static void main(String[] a){
 
         // Accessing the static variable here
         System.out.println("Static variable declared inside the class : " + number);
 
-    ]
+    }
 }
 ```
 
@@ -421,6 +421,7 @@ Decision Making in programming is similar to decision-making in real life. In pr
 - if-else : The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false? Here comes the else statement. We can use the else statement with the if statement to execute a block of code when the condition is false.
 - nested if : A nested if is an if statement that is the target of another if or else. Nested if statements mean an if statement inside an if statement. Yes, java allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
 - if else if ladder : Here, a user can decide among multiple options.The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that ‘if’ is executed, and the rest of the ladder is bypassed.
+- Switch Case : These are other kinds of block of statements that are used in order to run a particular block of code in regarding a particular case or value.
 
 Note : Proper Code is given in the file [decision.java](https://github.com/ackwolver335/Java-Coder/blob/main/decision1.java) Click to go on it.
 
