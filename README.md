@@ -425,6 +425,42 @@ Decision Making in programming is similar to decision-making in real life. In pr
 
 Note : Proper Code is given in the file [decision.java](https://github.com/ackwolver335/Java-Coder/blob/main/decision1.java) Click to go on it.
 
+### Here are some code examples of Decision Making Statements : 
+
+**If Statements**
+
+```
+class Class_name{
+    public static void main(String[] args){
+        
+        // Type 1
+        if(condition){
+            // code here
+        }
+
+        // Type 2
+        if(condition1){
+            // code here
+        }
+        else{                                   // another condition here
+            // opposite code block here
+        }
+
+        // Type 3
+        if(first_condition){
+            // code here
+        }
+        else if(second_condition){
+            // code here
+        }
+        else{
+            // opposite condition code here
+        }
+
+    }
+}
+```
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
