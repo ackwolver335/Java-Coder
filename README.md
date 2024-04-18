@@ -1,5 +1,3 @@
-![Coder1](https://github.com/ackwolver335/Java-Coder/assets/103741432/db00bf62-0a91-4b16-8f2d-4d2bd047de3b)
-
 # Basics of JAVA
 
 In this Repo, I have provided an Overview over to the Basics of the JAVA Programming Language. And each topic is been covered together with its code explanation in the Java Files that are mentioned above. For Covering up each part the syntax will also be available.
