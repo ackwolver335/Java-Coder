@@ -409,7 +409,7 @@ class Sample{
 
 Note : Proper Code will be given in the file name as [wrap.java](https://github.com/ackwolver335/Java-Coder/blob/main/wrap.java) Click to go on it.
 
-## Intro to Decision Making 
+## Intro to Decision Making :
 
 Decision Making in programming is similar to decision-making in real life. In programming also face some situations where we want a certain block of code to be executed when some condition is fulfilled. 
 
@@ -421,11 +421,15 @@ Decision Making in programming is similar to decision-making in real life. In pr
 - if else if ladder : Here, a user can decide among multiple options.The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that ‘if’ is executed, and the rest of the ladder is bypassed.
 - Switch Case : These are other kinds of block of statements that are used in order to run a particular block of code in regarding a particular case or value.
 
-Note : Proper Code is given in the file [decision.java](https://github.com/ackwolver335/Java-Coder/blob/main/decision1.java) Click to go on it.
-
 ### Here are some code examples of Decision Making Statements : 
 
 **If Statements**
+
+- If statement is the most simple decision-making statement. It is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statements is executed otherwise not. 
+
+- The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else if the condition is false? Here comes the else statement. We can use the else statement with the if statement to execute a block of code when the condition is false. 
+
+- A nested if is an if statement that is the target of another if or else. Nested if statements mean an if statement inside an if statement. Yes, java allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
 
 ```
 class Class_name{
@@ -458,6 +462,80 @@ class Class_name{
     }
 }
 ```
+
+**Switch Statement**
+
+- The switch statement is a multiway branch statement. It provides an easy way to dispatch execution to different parts of code based on the value of the expression.
+
+```
+class Class_name{
+    public static void main(String[] arg){
+        int num1 = 5;
+
+        switch(num1){
+            case 1:
+                System.out.println("Value is : 1");
+                break;                                  // for stopping the case here only
+
+            case 2:
+                System.out.println("Value is : 2");
+                break;
+
+            case 5:
+                System.out.println("Value is : 5");
+                break;
+
+            default:
+                System.out.println("Hope you got required result!");
+        }
+    }
+}
+```
+
+Note : Proper Code is given in the file [decision.java](https://github.com/ackwolver335/Java-Coder/blob/main/decision1.java) Click to go on it.
+
+## Looping Structures : 
+
+Looping in programming languages is a feature which facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true. Java provides three ways for executing the loops.
+
+**Categories of Looping Structures :**
+
+- while Loop : A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement. 
+
+```
+while(condition){
+    // code block
+    // stopping condition here
+}
+```
+
+- for Loop : for loop provides a concise way of writing the loop structure. Unlike a while loop, a for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.
+
+```
+for(initiator;condition;increment){
+    // code here
+}
+```
+
+- do-while loop : do while loop is similar to while loop with only difference that it checks for condition after executing the statements, and therefore is an example of Exit Control Loop. 
+
+```
+do{
+    // code here
+    // stopping condition here
+} while(testing_condition);
+```
+
+- for-each loop : For-each is another array traversing technique like for loop, while loop, do-while loop introduced in Java5.
+
+### Jump Statements : 
+
+Jump Statements are those statements which are used to come out of a particular block of code or looping structures that are explained above and there are different keywords that are used in the Jump Statements !
+
+- **break** : Used to break the loop or code block there only and then the cursor comes out of the block.
+- **continue** : Used to stops a particular iteration in loops or skip any particular iteration in the code block.
+
+Note : Proper code is beeng given in [loops.java](https://github.com/ackwolver335/Java-Coder/blob/main/loops.java) file above !
 
 ### Social Media Links :
 
