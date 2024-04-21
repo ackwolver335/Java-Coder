@@ -431,6 +431,8 @@ Decision Making in programming is similar to decision-making in real life. In pr
 
 - A nested if is an if statement that is the target of another if or else. Nested if statements mean an if statement inside an if statement. Yes, java allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
 
+Syntax Code :
+
 ```
 class Class_name{
     public static void main(String[] args){
@@ -467,6 +469,8 @@ class Class_name{
 
 - The switch statement is a multiway branch statement. It provides an easy way to dispatch execution to different parts of code based on the value of the expression.
 
+Syntax Code :
+
 ```
 class Class_name{
     public static void main(String[] arg){
@@ -502,6 +506,8 @@ Looping in programming languages is a feature which facilitates the execution of
 
 - while Loop : A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement. 
 
+Syntax Code :
+
 ```
 while(condition){
     // code block
@@ -518,6 +524,8 @@ for(initiator;condition;increment){
 ```
 
 - do-while loop : do while loop is similar to while loop with only difference that it checks for condition after executing the statements, and therefore is an example of Exit Control Loop. 
+
+Syntax Code :
 
 ```
 do{
@@ -536,6 +544,84 @@ Jump Statements are those statements which are used to come out of a particular 
 - **continue** : Used to stops a particular iteration in loops or skip any particular iteration in the code block.
 
 Note : Proper code is beeng given in [loops.java](https://github.com/ackwolver335/Java-Coder/blob/main/loops.java) file above !
+
+## Strings in JAVA
+
+Strings are the type of objects that can store the character of values and in Java, every character is stored in 16 bits i,e using UTF 16-bit encoding. A string acts the same as an array of characters in Java.
+
+### Ways to create a String : 
+
+- String Literals : This methods of creating string is used in a situation in order to make java more memory efficient, cause in this method objects of the strings are not created.
+
+Syntax Code : 
+
+```
+class Sample{
+    public static void main(String[] a){
+        String str1 = "Constant value String";
+    }
+}
+```
+
+- Using new keyword : In these type of cases the JVM used to create seperate objects in normal heap memo while the literals are placed in the string constant pool. And the variable created together with the object in the heap (Non-pool).
+
+Syntax Code : 
+
+```
+class Sample{
+    public static void main(String[] a){
+        String s1 = new String("String inside Heap Non-Pool");
+    }
+}
+```
+
+### Categories of String 
+
+- **String** : String is an immutable class which means a constant and cannot be changed once created and if wish to change , we need to create an new object and even the functionality it provides like toupper, tolower, etc all these return a new object , its not modify the original object. It is automatically thread safe.
+
+Syntax Code :
+
+```
+String s1 = "String without Object";                        // Method 1
+String s2 = new String("String with Object !");             // Method 2
+```
+
+- **StringBuffer** : StringBuffer is a peer class of String, it is mutable in nature and it is thread safe class , we can use it when we have multi threaded environment and shared object of string buffer i.e, used by mutiple thread.
+
+Syntax Code : 
+
+```
+StringBuffer str_bfr = new StringBuffer("Buffered Mutable String");
+```
+
+- **StringBuilder** : StringBuilder in Java represents an alternative to String and StringBuffer Class, as it creates a mutable sequence of characters and it is not thread safe. It is used only within the thread , so there is no extra overhead , so it is mainly used for single threaded program.
+
+Syntax Code : 
+
+```
+StringBuilder str_build = new StringBuilder();
+str_build.append("Ack Wolver");                                 // Adding some extras to the string
+```
+
+- **StringTokenizer** : StringTokenizer class in Java is used to break a string into tokens. A StringTokenizer object internally maintains a current position within the string to be tokenized. Some operations advance this current position past the characters processed.
+
+Syntax Code : 
+
+`
+StringTokenizer str1 = new StringTokenizer("Hello World! Having Space !"," ");
+while(str1.hasMoreTokens())
+    System.out.println(str1.nextToken());
+`
+
+- **StringJoiner** : StringJoiner is a class in java.util package is used to construct a sequence of characters(strings) separated by a delimiter and optionally starting with a supplied prefix and ending with a given suffix. 
+
+Syntax Code : 
+
+```
+StringJoiner str1 = new StringJoiner(",");
+sj1.setEmptyValue("It is empty");
+System.out.println(sj1);
+```
 
 ### Social Media Links :
 
