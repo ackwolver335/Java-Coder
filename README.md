@@ -623,6 +623,8 @@ sj1.setEmptyValue("It is empty");
 System.out.println(sj1);
 ```
 
+Note : The Code regrading the Basics one is here in [Basic_of_string](https://github.com/ackwolver335/Java-Coder/blob/main/b_of_str.java).
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
