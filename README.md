@@ -189,8 +189,6 @@ class Sample{
 }
 ```
 
-Note : Further Explanation is given in the Inout.java file above.
-
 - **Scanner** : It is an advanced version of BufferedReader which was added in later versions of Java. The scanner can read formatted input. It has different functions for different types of data types. 
 
 Syntax Code :
@@ -222,8 +220,6 @@ Other Methods for taking Different Data type input is been given below :
 - **nextInt()** : Used to take any Integer value as Input.
 - **nextLong()** : Used to get a Long Value of Input.
 - **nextShort()** : Used for reading any short value.
-
-Note : Further Code Explanation is been given in the Code File name "Inout.java".
 
 ### Output Methods :
 
@@ -591,6 +587,8 @@ class Sample{
 }
 ```
 
+Note : The Code regrading the Basics one is here in [Basic_of_string](https://github.com/ackwolver335/Java-Coder/blob/main/b_of_str.java).
+
 ### Categories of String 
 
 - **String** : String is an immutable class which means a constant and cannot be changed once created and if wish to change , we need to create an new object and even the functionality it provides like toupper, tolower, etc all these return a new object , its not modify the original object. It is automatically thread safe.
@@ -638,8 +636,6 @@ StringJoiner str1 = new StringJoiner(",");
 sj1.setEmptyValue("It is empty");
 System.out.println(sj1);
 ```
-
-Note : The Code regrading the Basics one is here in [Basic_of_string](https://github.com/ackwolver335/Java-Coder/blob/main/b_of_str.java).
 
 ### Social Media Links :
 
