@@ -253,6 +253,22 @@ class Sample{
 
 Note : Proper Code is given on [Inout.java](https://github.com/ackwolver335/Java-Coder/blob/main/Inout.java) Click to go on it.
 
+## Identifiers
+
+In Java, identifiers are used for identification purposes. Java Identifiers can be a class name, method name, variable name, or label.
+
+### Rules for defining JAVA Identifiers
+
+Below we have some rules that we need to follow in order to define the Identifiers otherwise, we may have to face the Compile-Time Errors. These rules are also followed in other programming languages like, C/C++,etc.
+
+- The Charactere that are used while defining the identifiers must be alphanumeric for better practice, a-z,0-9,'$' (dollar) or '_' (underscore), for example names like name@ will cause error while defining these.
+- These are **Case-Sensitive**.
+- Java Identifiers must not start with numeric value or symbol like $ or _ otherwise it would cause an error.
+- As there is no limit regarding characters while defining the Identifiers, but it is recommended that for better practice we must be in **14-15** characters.
+- We don't have to use the reserved words for defining any local or user-based Identifier, otherwise the compiler may get confused in finding the real Identifier which you are using.
+
+Note : The Code related to Identfiers Concept is here [Click](https://github.com/ackwolver335/Java-Coder/blob/main/Identify.java).
+
 ## Operators :
 
 Categories of Operators : 
