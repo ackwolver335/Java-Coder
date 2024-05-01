@@ -600,7 +600,7 @@ String s1 = "String without Object";                        // Method 1
 String s2 = new String("String with Object !");             // Method 2
 ```
 
-- **StringBuffer** : StringBuffer is a peer class of String, it is mutable in nature and it is thread safe class , we can use it when we have multi threaded environment and shared object of string buffer i.e, used by mutiple thread.
+- **StringBuffer** : *StringBuffer* is a peer class of String, it is mutable in nature and it is thread safe class , we can use it when we have multi threaded environment and shared object of string buffer i.e, used by mutiple thread.
 
 Syntax Code : 
 
@@ -608,7 +608,7 @@ Syntax Code :
 StringBuffer str_bfr = new StringBuffer("Buffered Mutable String");
 ```
 
-- **StringBuilder** : StringBuilder in Java represents an alternative to String and StringBuffer Class, as it creates a mutable sequence of characters and it is not thread safe. It is used only within the thread , so there is no extra overhead , so it is mainly used for single threaded program.
+- **StringBuilder** : *StringBuilder* in Java represents an alternative to String and StringBuffer Class, as it creates a mutable sequence of characters and it is not thread safe. It is used only within the thread , so there is no extra overhead , so it is mainly used for single threaded program.
 
 Syntax Code : 
 
@@ -617,7 +617,7 @@ StringBuilder str_build = new StringBuilder();
 str_build.append("Ack Wolver");                                 // Adding some extras to the string
 ```
 
-- **StringTokenizer** : StringTokenizer class in Java is used to break a string into tokens. A StringTokenizer object internally maintains a current position within the string to be tokenized. Some operations advance this current position past the characters processed.
+- **StringTokenizer** : *StringTokenizer* class in Java is used to break a string into tokens. A StringTokenizer object internally maintains a current position within the string to be tokenized. Some operations advance this current position past the characters processed.
 
 Syntax Code : 
 
@@ -627,7 +627,7 @@ while(str1.hasMoreTokens())
     System.out.println(str1.nextToken());
 ```
 
-- **StringJoiner** : StringJoiner is a class in java.util package is used to construct a sequence of characters(strings) separated by a delimiter and optionally starting with a supplied prefix and ending with a given suffix. 
+- **StringJoiner** : *StringJoiner* is a class in java.util package is used to construct a sequence of characters(strings) separated by a delimiter and optionally starting with a supplied prefix and ending with a given suffix. 
 
 Syntax Code : 
 
@@ -747,6 +747,60 @@ String build_str = new String(str_build);
 - **starsWith(String)** : Returns a boolean value accordingly if the string startswith the one asked for or available in its prefix.
 
 Note: The File link regarding String Constructors and Methods is here :- [Click](https://github.com/ackwolver335/Java-Coder/blob/main/strClass.java) to get the code.
+
+## StringBuffer Class
+
+**StringBuffer** is a class in Java that represents a mutable sequence of characters. It provides an alternative to the immutable String class, allowing you to modify the contents of a string without creating a new object every time.
+
+### Features of StringBuffer Class : 
+
+- Its Objects are mutable, it means that we can change the content of the object without creating a new one.
+- The Initial Capacity of StringBuffer can be modified, and also be set further with the help of ensureCapacity() method.
+- With the functions or methods that are explained below its capabilities are increased and enhanced.
+
+### Methods of StringBuffer Class : 
+
+- **append()** : It is used for concatenating the given argument with the string together with it is used.
+- **insert()** : It is used for inserting the string at a particular index in the selected Buffered String.
+- **replace()** : It is used for replacing the given String part or a whole string with argument from begin index and last index -1 as per the String.
+- **delete()** : It is used for deleting a particular partition of the selected String as per passing the argument for begin and last index.
+- **reverse()** : It is used for reversing the string from the String Buffer created.
+- **capacity()** : It is used for checking the capacity of the Buffered String created using StringBuffer Class.
+- **length()** : Returns the length of the selected Buffered String Object.
+- **charAt()** : Returns that character at the position of the index passed, as per the required argument.
+- **deleteCharAt()** : It is used to delete a particular character present at a particular position in the Buffered String.
+- **ensureCapacity()** : It is used to ensure or in other words redefine the Capacity of the Buffered String.
+- **indexOf()** : It is used to get the index of a particular character from the Buffered String.
+- **substring()** : It is used to make a partition from the initial Buffered String, the partition is done by passing begin index.
+- **setCharAt()** : It is used to set a specific character at a specific position by passing it as an argument.
+
+### Constructors in StringBuffer Class :
+
+- **StringBuffer()** : It is a default way of creating StringBuffer Object which reservers 16 characters without reallocating any memory space, just the space is reserved for the 16 character as default.
+
+Syntax Code : 
+
+```
+StringBuffer sb1 = new StringBuffer();
+```
+
+- **StringBuffer(int capacity)** : It is another way of using StringBuffer Class for creating any Object as per defining the amount of character space needed for providing pre-defined memory space and further more space is been reserved for 16 more character without reallocation.
+
+Syntax Code :
+
+```
+StringBuffer sb2 = new StringBuffer(60);
+```
+
+- **StringBuffer(string)** : It is the last way of creating a StringBuffer Object by directing passing the amount of string that we want to assign to the Object. 
+
+Syntax Code :
+
+```
+StringBuffer sb3 = new StringBuffer("Hello World !");
+```
+
+Note : The Code regarding StringBuffer Class Methods and further example is available here -> [Click](https://github.com/ackwolver335/Java-Coder/blob/main/str_bffr_clss.java) to go on to it.
 
 ### Social Media Links :
 
