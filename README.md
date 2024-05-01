@@ -637,6 +637,115 @@ sj1.setEmptyValue("It is empty");
 System.out.println(sj1);
 ```
 
+## String Class
+
+The string is a sequence of characters. In Java, objects of String are immutable which means a constant and cannot be changed once created.
+
+### String Constructors
+
+- **String(byte[] byte_arr)** : Used to create a new string by decoding the byte array into a proper string by the available byte code characters.
+
+Syntax Code : 
+
+```
+byte arr[] = {65,67,75};
+String my_name = new String(arr);
+```
+
+- **String(byte[] byte_arr,charset)** : Construct a string with the help of bytecode available in the array and also uses the charset in it.
+
+Syntax Code : 
+
+```
+byte[] arr = {65,67,75};
+Charset cs = Charset.defaultCharset();
+String byte_char = new String(arr,cs);
+```
+
+- **String(byte[] byte_arr,int start_index,int length)** : Construct a new string by combining all the byte array's element depending on the start index and also according to the length given.
+
+Syntax Code : 
+
+```
+byte[] byte_arr = {71,101,101,107};
+String byte_string = new String(byte_arr,1,3);
+```
+
+- **String(byte[] byte_arr,int start_index,int length,Charset char_set)** : Construct a new string by combining all the byte array's element depending on the start index and length together by decoding the with the help of charset.
+
+Syntax Code : 
+
+```
+byte[] byte_arr = {65,67,75};
+Charset cs = Charset.defaultCharset();
+String byte_string = new String(byte_arr,1,3,cs);
+```
+
+- **String(char[] char_arr)** : Construct a string using the characters available in it, in this all the characters are combined together in order to create or generate a proper string using them.
+
+Syntax Code : 
+
+```
+char[] char_arr = {'A','c','k'};
+String char_string = new String(char_arr);          // will generate a character string
+```
+
+- **String(char[] char_arr,int start_index,int count)** : Construct a string with the use of a character array, but here we have some additional features like the count will be available for number of characters from the starting index.
+
+Syntax Code : 
+
+```
+char[] char_arr = {'A','c','k'};
+String char_string = new String(char_arr,0,2);
+```
+
+- **String(int[] uni_code,int offset,int count)** : Allocates or construct a string by using the unicode character's convertion, also by the count of characters and by providing the starting index also.
+
+Syntax Code : 
+
+```
+int[] uni_code = {65,67,75};
+String unicode_string = new String(uni_code,0,2);
+```
+
+- **String(StringBuffer str_bffr)** : Construct a new string with the use of StringBuffer string class (StringBuffer).
+
+Syntax Code : 
+
+```
+StringBuffer str_bffr = new StringBuffer("Ack");
+String bffr_string = new String(str_bffr);
+```
+
+- **String(StringBuilder str_build)** : Allocates a string with the help of StringBuilder class into a normal one.
+
+Syntax Code : 
+
+```
+StringBuilder str_build = new StringBuilder("Ack");
+String build_str = new String(str_build);
+```
+
+### String Methods
+
+- **length()** : Returns the length of the string in the form of an integer.
+- **charAt(int i)** : Returns the character by providing its specific index to this method.
+- **substring(int i)** : Returns the substring of the original string after dividing from the given index position, also don't have any effect on the initial string. Its another varient is also used in which an optional argument is passed for getting the ending index of the substring.
+- **concat(String str)** : Used for concatenating two strings together.
+- **indexOf(String str)** : Returns the index of either a particular character if single character is passed, and if a particular word is passed then it returns the index of the first character of the word used. Its another varient is used in order to find the position as per the occerence and specifying its particular position.
+- **lastIndexOf(String str)** : Returns the last index of the passed index or in other words its last occurence.
+- **equals(Object othr_obj)** : Compares the string and returns the result in Boolean Format (True or False).
+- **equalIgnoreCase(String another_string)** : Works similar to equals() method just the difference is of ignoring the case.
+- **compareTo(String another_string)** : Used to compare the string lexicographically.
+- **compareToIgnoreCase(String another_string)** : Works similar to compareTo() method just by ignoring the case of characters.
+- **toLowerCase()** : Used to convert all the characters of the string into lowercase.
+- **toUpperCase()** : Used to convert all the characters of the string into uppercase.
+- **trim()** : Used to remove white spaces from both the sides of the string. And for specific removal a common element can be passed from it, then it will return an array of divided elements.
+- **replace(char old_char,char new_char)** : Used to replace a particular part (word) or a character in the string it is used with.
+- **contains(String word)** : Returns a boolean value accordingly if the word or character is contained or available in the String or not.
+- **toCharArray()** : Used to convert a proper string into an array or characters as it returns it back to the user.
+- **starsWith(String)** : Returns a boolean value accordingly if the string startswith the one asked for or available in its prefix.
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
