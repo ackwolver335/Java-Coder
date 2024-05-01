@@ -746,6 +746,8 @@ String build_str = new String(str_build);
 - **toCharArray()** : Used to convert a proper string into an array or characters as it returns it back to the user.
 - **starsWith(String)** : Returns a boolean value accordingly if the string startswith the one asked for or available in its prefix.
 
+Note: The File link regarding String Constructors and Methods is here :- [Click](https://github.com/ackwolver335/Java-Coder/blob/main/strClass.java) to get the code.
+
 ### Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
