@@ -112,7 +112,7 @@ class str_build_clss{
         // 21. toString() : This method is used for converting the allocated string to a normal String Data Type.
         System.out.println("String after converting to a data type String : " + string1.toString());
 
-        // trimToSize() : This method is used for triming the size of the string
+        // 22. trimToSize() : This method is used for triming the size of the string
         StringBuilder string4 = new StringBuilder("New String");
         System.out.println("The String Capacity before triming to the size : " + string4.capacity());
         string4.trimToSize();
