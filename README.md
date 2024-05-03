@@ -40,7 +40,7 @@ JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and
 
 Source Code :
 
-```
+```java
 class Class_name{
     public static void main(String[] a){
         System.out.println("Hello World !");
@@ -59,7 +59,7 @@ java file_name
 
 Code Output : 
 
-```bash
+```
 Hello World !
 ```
 
@@ -96,7 +96,7 @@ Note : Proper code is given at [Basic.java](https://github.com/ackwolver335/Java
 
 Syntax Code : 
 
-```
+```java
 String str1 = "This is a simple string in JAVA";
 ```
 
@@ -104,7 +104,7 @@ String str1 = "This is a simple string in JAVA";
 
 Syntax Code :
 
-```
+```java
 class Class_name{
     // class members
     public int number = 12;
@@ -120,7 +120,7 @@ class Class_name{
 
 Syntax Code :
 
-```
+```java
 class First{
 
 }
@@ -136,7 +136,7 @@ class Class_main{
 
 Syntax Code : 
 
-```
+```java
 interface interface_name{
     // inteface members
     // inteface methods but not defined
@@ -147,7 +147,7 @@ interface interface_name{
 
 Syntax Code : 
 
-```
+```java
 datatype array_name = new datatype[length];
 ```
 
@@ -169,7 +169,7 @@ Below we have some packages to be used while working with Inputs and Outputs :
 
 Syntax Code :
 
-```
+```java
 import java.io.*;
 // BufferedReader and Input Stream Reader both are included above
 
@@ -193,7 +193,7 @@ class Sample{
 
 Syntax Code :
 
-```
+```java
 // Required Package Below
 import java.util.*;
 
@@ -231,7 +231,7 @@ Following are different methods for learning Output Methods in JAVA :
 
 Syntax Code : 
 
-```
+```java
 class Sample{
     public static void main(String[] a){
 
@@ -297,7 +297,7 @@ Below we have different categories of variables with example explanation :-
 
 Syntax Code : 
 
-```
+```java
 class Sample{
     public statc void main(String[] a){
         
@@ -314,7 +314,7 @@ class Sample{
 
 Syntax Code :
 
-```
+```java
 class Sample{
 
     // Creating an instance variable here
@@ -337,7 +337,7 @@ class Sample{
 
 Syntax Code :
 
-```
+```java
 class Sample{
 
     // Defining a static variable
@@ -376,7 +376,7 @@ The automatic conversion of primitive types to the object of their corresponding
 
 Syntax Code : 
 
-```
+```java
 import java.util.*;
 
 class Sample{
@@ -400,7 +400,7 @@ It is just the reverse process of autoboxing. Automatically converting an object
 
 Syntax Code :
 
-```
+```java
 import java.util.*;
 
 class Sample{
@@ -445,7 +445,7 @@ Decision Making in programming is similar to decision-making in real life. In pr
 
 Syntax Code :
 
-```
+```java
 class Class_name{
     public static void main(String[] args){
         
@@ -483,7 +483,7 @@ class Class_name{
 
 Syntax Code :
 
-```
+```java
 class Class_name{
     public static void main(String[] arg){
         int num1 = 5;
@@ -520,7 +520,7 @@ Looping in programming languages is a feature which facilitates the execution of
 
 Syntax Code :
 
-```
+```java
 while(condition){
     // code block
     // stopping condition here
@@ -529,7 +529,7 @@ while(condition){
 
 - for Loop : for loop provides a concise way of writing the loop structure. Unlike a while loop, a for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.
 
-```
+```java
 for(initiator;condition;increment){
     // code here
 }
@@ -539,7 +539,7 @@ for(initiator;condition;increment){
 
 Syntax Code :
 
-```
+```java
 do{
     // code here
     // stopping condition here
@@ -567,7 +567,7 @@ Strings are the type of objects that can store the character of values and in Ja
 
 Syntax Code : 
 
-```
+```java
 class Sample{
     public static void main(String[] a){
         String str1 = "Constant value String";
@@ -579,7 +579,7 @@ class Sample{
 
 Syntax Code : 
 
-```
+```java
 class Sample{
     public static void main(String[] a){
         String s1 = new String("String inside Heap Non-Pool");
@@ -595,7 +595,7 @@ Note : The Code regrading the Basics one is here in [Basic_of_string](https://gi
 
 Syntax Code :
 
-```
+```java
 String s1 = "String without Object";                        // Method 1
 String s2 = new String("String with Object !");             // Method 2
 ```
@@ -604,7 +604,7 @@ String s2 = new String("String with Object !");             // Method 2
 
 Syntax Code : 
 
-```
+```java
 StringBuffer str_bfr = new StringBuffer("Buffered Mutable String");
 ```
 
@@ -612,7 +612,7 @@ StringBuffer str_bfr = new StringBuffer("Buffered Mutable String");
 
 Syntax Code : 
 
-```
+```java
 StringBuilder str_build = new StringBuilder();
 str_build.append("Ack Wolver");                                 // Adding some extras to the string
 ```
@@ -621,7 +621,7 @@ str_build.append("Ack Wolver");                                 // Adding some e
 
 Syntax Code : 
 
-```
+```java
 StringTokenizer str1 = new StringTokenizer("Hello World! Having Space !"," ");
 while(str1.hasMoreTokens())
     System.out.println(str1.nextToken());
@@ -631,7 +631,7 @@ while(str1.hasMoreTokens())
 
 Syntax Code : 
 
-```
+```java
 StringJoiner str1 = new StringJoiner(",");
 sj1.setEmptyValue("It is empty");
 System.out.println(sj1);
@@ -647,7 +647,7 @@ The string is a sequence of characters. In Java, objects of String are immutable
 
 Syntax Code : 
 
-```
+```java
 byte arr[] = {65,67,75};
 String my_name = new String(arr);
 ```
@@ -656,7 +656,7 @@ String my_name = new String(arr);
 
 Syntax Code : 
 
-```
+```java
 byte[] arr = {65,67,75};
 Charset cs = Charset.defaultCharset();
 String byte_char = new String(arr,cs);
@@ -666,7 +666,7 @@ String byte_char = new String(arr,cs);
 
 Syntax Code : 
 
-```
+```java
 byte[] byte_arr = {71,101,101,107};
 String byte_string = new String(byte_arr,1,3);
 ```
@@ -675,7 +675,7 @@ String byte_string = new String(byte_arr,1,3);
 
 Syntax Code : 
 
-```
+```java
 byte[] byte_arr = {65,67,75};
 Charset cs = Charset.defaultCharset();
 String byte_string = new String(byte_arr,1,3,cs);
@@ -685,7 +685,7 @@ String byte_string = new String(byte_arr,1,3,cs);
 
 Syntax Code : 
 
-```
+```java
 char[] char_arr = {'A','c','k'};
 String char_string = new String(char_arr);          // will generate a character string
 ```
@@ -694,7 +694,7 @@ String char_string = new String(char_arr);          // will generate a character
 
 Syntax Code : 
 
-```
+```java
 char[] char_arr = {'A','c','k'};
 String char_string = new String(char_arr,0,2);
 ```
@@ -703,7 +703,7 @@ String char_string = new String(char_arr,0,2);
 
 Syntax Code : 
 
-```
+```java
 int[] uni_code = {65,67,75};
 String unicode_string = new String(uni_code,0,2);
 ```
@@ -712,7 +712,7 @@ String unicode_string = new String(uni_code,0,2);
 
 Syntax Code : 
 
-```
+```java
 StringBuffer str_bffr = new StringBuffer("Ack");
 String bffr_string = new String(str_bffr);
 ```
@@ -721,7 +721,7 @@ String bffr_string = new String(str_bffr);
 
 Syntax Code : 
 
-```
+```java
 StringBuilder str_build = new StringBuilder("Ack");
 String build_str = new String(str_build);
 ```
@@ -780,7 +780,7 @@ Note: The File link regarding String Constructors and Methods is here :- [Click]
 
 Syntax Code : 
 
-```
+```java
 StringBuffer sb1 = new StringBuffer();
 ```
 
@@ -788,7 +788,7 @@ StringBuffer sb1 = new StringBuffer();
 
 Syntax Code :
 
-```
+```java
 StringBuffer sb2 = new StringBuffer(60);
 ```
 
@@ -796,7 +796,7 @@ StringBuffer sb2 = new StringBuffer(60);
 
 Syntax Code :
 
-```
+```java
 StringBuffer sb3 = new StringBuffer("Hello World !");
 ```
 
