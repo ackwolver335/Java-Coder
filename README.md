@@ -802,12 +802,12 @@ StringBuffer sb3 = new StringBuffer("Hello World !");
 
 Note : The Code regarding StringBuffer Class Methods and further example is available here -> [Click](https://github.com/ackwolver335/Java-Coder/blob/main/str_bffr_clss.java) to go on to it.
 
-### Social Media Links :
+## Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
 - [Whatsapp Channel](https://whatsapp.com/channel/0029VaA2aK7DeON5LRUhRr28)
 - [Discord Channel](https://discord.com/invite/CGcEFwdY)
 
-### Feedback
+## Feedback
 
 If you wants to give any kind of feedback or query, I m surely active on my social media handles !
