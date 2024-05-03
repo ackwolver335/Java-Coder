@@ -748,14 +748,6 @@ String build_str = new String(str_build);
 
 Note: The File link regarding String Constructors and Methods is here :- [Click](https://github.com/ackwolver335/Java-Coder/blob/main/strClass.java) to get the code.
 
-## Table Content Difference :
-
-| String Categories | Constructors       | Definition                                        |
-| :---------------- | :----------------- | :------------------------------------------------ |
-| StringBuffer      | Default            | Default construction behaviour using new keyword  |
-| StringBuilder     | String as Argument | Created by passing a default string value         |
-| StringTokenized   | Character Sequence | Created by passing a Character Sequence of String |
-
 ## StringBuffer Class
 
 **StringBuffer** is a class in Java that represents a mutable sequence of characters. It provides an alternative to the immutable String class, allowing you to modify the contents of a string without creating a new object every time.
