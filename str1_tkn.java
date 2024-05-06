@@ -38,7 +38,7 @@ class str1_tkn {
         // 3. nextToken() : Returns the next Token from the given String Tokenizer Class
         // Above method is already been implement together with the hasMoreTokens() in the while Loop
 
-        // 4. hasMoreElement() : Works similar to the hasMoreToken() method.
+        // 4. hasMoreElements() : Works similar to the hasMoreToken() method.
         StringTokenizer str4 = new StringTokenizer("This is not a good one !"," ");
         while(str4.hasMoreElements())
             System.out.println(str4.nextElement());
