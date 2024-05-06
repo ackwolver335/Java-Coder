@@ -802,6 +802,75 @@ StringBuffer sb3 = new StringBuffer("Hello World !");
 
 Note : The Code regarding StringBuffer Class Methods and further example is available here -> [Click](https://github.com/ackwolver335/Java-Coder/blob/main/str_bffr_clss.java) to go on to it.
 
+## StringBuilder Class
+
+StringBuilder in Java represents a mutable sequence of characters. Since the String Class in Java creates an immutable sequence of characters, the StringBuilder class provides an alternative to String Class, as it creates a mutable sequence of characters. 
+The function of StringBuilder is very much similar to the StringBuffer class, as both of them provide an alternative to String Class by making a mutable sequence of characters.
+
+### Constructors in StringBuilder Class
+
+- **StringBuilder()** : It is used for Building a non-character string with initial Capacity of 16 Characters.
+
+Syntax Code :
+
+```java
+StringBuilder str1 = new StringBuilder();
+```
+
+- **StringBuilder(int Capacity)** : It is used to create a string by initialising the string by providing a particular string Capacity to it.
+
+Syntax Code :
+
+```java
+StringBuilder str2 = new StringBuilder(20);
+```
+
+- **StringBuilder(CharSequence seq)** : It is used in order to creaate an object as per the required String CharSequence by passing it as the arguments.
+
+Syntax Code :
+
+```java
+StringBuilder str3 = new StringBuilder("Hello World!");
+```
+
+- **StringBuilder(String obj)** : It is used in order to create a StringBuilder Object by passing an already created String as an argument.
+
+Syntax Code : 
+
+```java
+String my_str = "Hello Java";
+StringBuilder str4 = new StringBuilder(my_str);
+```
+
+### StringBuilder Methods
+
+| **Methods** | **Uses** |
+| :---------- | :------- |
+| **append()** | It is used in order to extend teh String stored in object created using String Builder Class |
+| **appendCodePoint(ASCII CODE)** | This Method is used in order to add a character to the *Object's String* as per its **ASCII Code** |
+| **capacity()** | This Method is used to check the capacity of the StringBuilder Object |
+| **charAt()** | It is used in order to point out and return any character available at a particular index |
+| **codePointAt()** | Return the ASCII Code of character available at particular index in the StringBuilder's Object |
+| **codePointBefore()** | Returns the ASCII Code of the character before the one whose index is passed |
+| **codePointCount()** | Returns the Total number of character available between two particular indexes |
+| **delete()** | Used to delete a particular range of characters from the StringBuilder's String |
+| **ensureCapacity()** | It is used for verification and modification of the Capacity of the StringBuilder's Object |
+| **getChars()** | It is used in order take a range of characters from the StringBuilder's Object and put it at a particular position at the index of an already created array |
+| **indexOf()** | Used to find the index of a particular word or character from the StringBuilder's Object |
+| **insert()** | This method is used for inserting the string representation of the boolean alternate argument into this sequence. |
+| **lastIndexOf()** | Returns the last occurence or index of the String word or character passed in it as arguments |
+| **length()** | This Method is simply used in order to get the link of String available in the StringBuilder's Object |
+| **replace()** | It is used for replacing the range of String in StringBuilder's Object from a particular passed String |
+| **reverse()** | It is used in order to reverse the overall String available in StringBuilder's Object |
+| **setCharAt()** | It is used to set a particular character at a particular position in the StringBuilder's String by passing the particular position index |
+| **setLength()** | It is used for reassigning the length of the String |
+| **subSequence()** | It is used in order to create a subSequence of a particular StringBuilder's String |
+| **substring()** | It returns a particular partition of String created after passing a range of indexes |
+| **toString()** | It is simply used to convert an object String to String Data Type in JAVA |
+| **trimToSize()** | It is used for Triming the size of the String in order to remove the useless characters |
+
+Note : All the code explanation is available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/str_build_clss.java).
+
 ## Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
