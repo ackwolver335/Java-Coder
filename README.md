@@ -871,6 +871,88 @@ StringBuilder str4 = new StringBuilder(my_str);
 
 Note : All the code explanation is available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/str_build_clss.java).
 
+## StringTokenizer Class
+
+StringTokenizer class in Java is used to break a string into tokens. A StringTokenizer object internally maintains a current position within the string to be tokenized. Some operations advance this current position past the characters processed.
+
+A token is returned by taking a substring of the string that was used to create the StringTokenizer object. It provides the first step in the parsing process often called lexer or scanner.
+
+### Constructors in StringTokenizer Class
+
+- **StringTokenizer(String str)** : It is used for creating a StringTokenizer Object without passing the delimeter as the default delimeter value which is taken is space here.
+
+Syntax Code : 
+
+```java
+StringTokenizer str1 = new StringTokenizer("This is a general String");
+```
+
+- **StringTokenizer(String str,String delimeter)** : It is used to create a StringTokenizer Object together by passing delimeter as per our choice and also that must be present inside the String we have taken.
+
+Syntax Code : 
+
+```java
+StringTokenizer str2 = new StringTokenizer("A : String : Value",":");
+```
+
+- **StringTokenizer(String str,String delimeter,boolean flag)** : In this method of creating a StringTokenizer Constructor a last optional argument is passed in order to allow using the String Delimeter and the default value of this delimeter is true.
+
+Syntax Code :
+
+```java
+StringTokenizer str3 = new StringTokenizer("String : Here !",":",true);
+```
+
+### Methods in StringTokenizer Class
+
+| **Method Name** | **Uses** |
+| :-------------- | :------- |
+| **countTokens()** | It is used in order to count the number of Tokens in which the String of StringToknizer Class is been divided |
+| **hasMoreTokens()** | This method is used in order to check the presence of Tokens inside the StringTokenizer Object. |
+| **nextToken()** | It is used in order to move onto the next available token in the StringTokenizer's Object. |
+| **hasMoreElements()** | This method works similar to the *hasMoreToken()* just by treating the Tokens as the Elements of the Object. |
+| **nextElement()** | It works similar to the *nextToken()* method just by treating the Tokens as Elements |
+
+Note : The Code File and Explanation is available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/str1_tkn.java)
+
+## StringJoiner Class
+
+StringJoiner is a class in java.util package is used to construct a sequence of characters(strings) separated by a delimiter and optionally starting with a supplied prefix and ending with a given suffix. 
+
+Though this can also be done with the help of the StringBuilder class to append delimiter after each string, StringJoiner provides an easy way to do that without much code to write.
+
+Note : We also uses a package **java.util.StringJoiner** while working with StringJoiner Class and its Objects.
+
+### Constructors in StringJoiner Class
+
+- **StringJoiner(CharSequence delimeter)** : This method is used in order to construct the StringJoiner Object without the presence of  characters, prefix, suffix and a copy of the supplied delimeter.
+
+Syntax Code : 
+
+```java
+StringJoiner str1 = new StringJoiner(",");
+```
+
+- **StringJoiner(CharSequence delimeter,CharSequence prefix,CharSequence suffix)** : This method in order to construct a StringJoiner with no characters using copies of the supplied prefix, delimiter, and suffix. If no characters are added to the StringJoiner and methods accessing the string value are invoked, it will return the prefix + suffix (or properties thereof) in the result unless setEmptyValue has first been called.
+
+Syntax Code :
+
+```java
+StringJoiner str2 = new StringJoiner(",","Strin Before Delimeter","String after Delimeter");
+```
+
+### Methods of StringJoiner Class 
+
+| **Method's Name** | **Uses** |
+| :---------------- | :------- |
+| **add()** | Used to add CharSequence or String Data to the StringJoiner Class Object's String |
+| **length()** | Used to find the length of the String inside StringJoiner Class's Object or No. of Characters inside the String |
+| **merge()** | This method is used in order to merge two Strings of different StringJoiner Class's Object |
+| **toString()** | It is a simple method used to convert the StringJoiner Object to String Data Type |
+| **setEmptyValue()** | It is used in order to set the value of an Empty StringJoiner Object to put some data to it. |
+
+Note : The Code File and Explanation regarding StringJoiner Class is available in this [link](https://github.com/ackwolver335/Java-Coder/blob/main/str1_join.java).
+
 ## Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
