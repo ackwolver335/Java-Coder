@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class arr_cls{
     public static void main(String[] a){
+
         // Declaring an array here
         int arr[];
 
@@ -61,5 +62,50 @@ class arr_cls{
             System.out.print(arr1[i] + " ");
         }
         System.out.println();
+
+        // Passing the arrays to the function
+        sum(arr);
+
+        // Cloning Multidimensional Array
+        int[][] array3 = array2.clone();
+
+        System.out.println("Elements of Multidimensional Array : ");
+        for(int i = 0;i < array3.length;i++){
+            for(int j = 0;j < array3[0].length;j++){
+                System.out.print(array3[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        // Returning array from the methods or functions
+        int[] array4 = arr1();
+        System.out.println("\nElements of the array that is created by returning from a method : ");
+        for(int i = 0;i < array4.length;i++){
+            System.out.print(array4[i] + " ");
+        }
+        System.out.println();
+
+        // Creating Class Objects for Arrays
+        byte[] bytearray = new byte[3];
+        short[] shortarray = new short[3];
+        String[] string_array = new String[3];
+        
+        // Printing the data to the user
+        System.out.println("Class of first bytearray created : " + bytearray.getClass());
+        System.out.println("Class of second shortarray created : " + shortarray.getClass());
+        System.out.println("Class of third string_array created : " + string_array.getClass());
+        System.out.println("SuperClass of third string_array created : " + string_array.getClass().getSuperclass());
+    }
+
+    public static void sum(int[] a){
+        int result = 0;
+        for(int i = 0;i < a.length;i++){
+            result += a[i];
+        }
+        System.out.println("Sum of all the digits of the array is : " + result);
+    }
+
+    public static int[] arr1(){
+        return new int[] {34,55,65};
     }   
 }
