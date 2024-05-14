@@ -944,7 +944,7 @@ StringJoiner str2 = new StringJoiner(",","Strin Before Delimeter","String after 
 ### Methods of StringJoiner Class 
 
 | **Method's Name** | **Uses** |
-| :---------------- | :------- |
+| ----------------- | -------- |
 | **add()** | Used to add CharSequence or String Data to the StringJoiner Class Object's String |
 | **length()** | Used to find the length of the String inside StringJoiner Class's Object or No. of Characters inside the String |
 | **merge()** | This method is used in order to merge two Strings of different StringJoiner Class's Object |
@@ -997,7 +997,7 @@ Syntax Code :
 int[] new_array = old_array.clone();
 ```
 
-#### Note : The Code Content will be available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/arr_cls.java)
+Note : The Code Content will be available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/arr_cls.java)
 
 ## Social Media Links :
 
