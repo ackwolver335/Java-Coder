@@ -42,5 +42,33 @@ class arr_mds{
         System.out.println("Array Before filling it using fill() method : " + Arrays.toString(arr1));
         Arrays.fill(arr1,33);
         System.out.println("Array after filling it with a key value using fill() method : " + Arrays.toString(arr1));
+
+        // 12. hashCode() : It is used to check or to find the hashcode of the array elements
+        System.out.println("HashCode of the elements of the array using hashCode() method : " + Arrays.hashCode(arr1));
+
+        // 13. mismatch() : It returns the index the element where the elements of the array are mismatchced
+        System.out.println("Position in the array where the elements are mismatched using mismatch() method : " + Arrays.mismatch(arr1,arr2));
+
+        // 14. parallelSort() : It is different method of sorting the array and its element in the ascending order by default
+        int[] arr3 = {34,12,55,45,33};
+        System.out.println("Array before sorting : " + Arrays.toString(arr3));
+        Arrays.parallelSort(arr3);
+        System.out.println("Array after sorting using parallelSort() method : " + Arrays.toString(arr3));
+
+        // 15. sort() : This is the simple method of sorting the array in JAVA [Sorts in ascending order by default]
+        // We can also assign a particular range from starting and ending index to sort
+        int[] arr4 = {34,11,10,45,33};
+        System.out.println("Array before sorting : " + Arrays.toString(arr4));
+        Arrays.sort(arr4);
+        System.out.println("Array after sorting using simple sort() method : " + Arrays.toString(arr4));
+
+        // 16. spliterator() : Used to find the spliterator of the array
+        System.out.println("Spilterator of the array using spliterator() method : " + Arrays.spliterator(arr4));
+
+        // 17. stream() : Used to find the head of the array available on getting it converted into stream
+        System.out.println("Stream head of the Array using stream() method : " + Arrays.stream(arr4));
+
+        // 18. toString() : It is used to convert the array into string on the place of iterating using loops
+        System.out.println("Array after getting converted into string using toString() method : " + Arrays.toString(arr3));
     }
 }
