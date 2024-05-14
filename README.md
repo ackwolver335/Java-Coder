@@ -944,7 +944,7 @@ StringJoiner str2 = new StringJoiner(",","Strin Before Delimeter","String after 
 ### Methods of StringJoiner Class 
 
 | **Method's Name** | **Uses** |
-| ----------------- | -------- |
+| :---------------- | :------- |
 | **add()** | Used to add CharSequence or String Data to the StringJoiner Class Object's String |
 | **length()** | Used to find the length of the String inside StringJoiner Class's Object or No. of Characters inside the String |
 | **merge()** | This method is used in order to merge two Strings of different StringJoiner Class's Object |
@@ -998,6 +998,31 @@ int[] new_array = old_array.clone();
 ```
 
 Note : The Code Content will be available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/arr_cls.java)
+
+## Array Methods in JAVA
+
+| **Method's Name** | **Method's Use** |
+| :---------------- | :--------------- |
+| **asList()** | Returns the list after converting it from initial array |
+| **binarySearch()** | Returns the key element by applying *Binary Search* to the array |
+| **compare()** | Returns a Boolean result after comparing the array's element |
+| **compareUnsigned()** | Returns a Boolean result after comparing the array's element of unsigned data types |
+| **copyOf()** | Returns the copy of a particular element also by defining a specific length of the elements |
+| **copyOfRange()** | Returns a copy of a particular array after specifying a particular range of  elements |
+| **deepEquals()** | Returns a Boolean value after checking each and every value deeply from both the arrays |
+| **deepHashCode()** | Returns a Boolean value as a result after comparing the Hash Code of the elements of the arrays |
+| **deepToString()** | Used to convert the array into a particular string deeply |
+| **equals()** | Returns a Boolean value after checking if the two arrays are equal or not |
+| **fill()** | Used to fill the whole array from a particular value |
+| **hashCode()** | Used to find the hash Code as per the value of the array |
+| **mismatch()** | Returns the index of the element which is mismatched between two arrays |
+| **parallelSort()** | Used to sort the array using a particular parallel sort method |
+| **sort()** | Used to perform sorting simply by default in ascending order |
+| **spliterator()** | Returns the spliterator value of the array as per their elements |
+| **stream()** | Returns the head position of the array after prediction when gets converted into a String Stream |
+| **toString()** | Used to convert the overall array into the String |
+
+Note : The Code is available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/arr_mds.java)
 
 ## Social Media Links :
 
