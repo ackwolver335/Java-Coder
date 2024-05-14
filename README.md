@@ -953,6 +953,52 @@ StringJoiner str2 = new StringJoiner(",","Strin Before Delimeter","String after 
 
 Note : The Code File and Explanation regarding StringJoiner Class is available in this [link](https://github.com/ackwolver335/Java-Coder/blob/main/str1_join.java).
 
+## Arrays in JAVA
+
+In Java, Array is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. Following are some important points about Java arrays. 
+
+### Some Features of Arrays in JAVA
+
+| **Features of JAVA** |
+| -------------------- |
+| Arrays are dynamically allocated |
+| These are stored in Contiguous Memory |
+| We can find the length of the Arrays using length as these are objects in JAVA and are different from the Arrays of C/C++ |
+| We can also declare an array variable in JAVA using [ ] after the data type keyword |
+| The Variables of array data type are ordered and has the index beginning with 0 |
+| It also have a static field, local variable and method parameter |
+
+### Operations of Arrays in JAVA
+
+- **Creation or Initialization** : These operation contains mainly 3 steps or process in it, *declaration*, *definition* and *initialization* of Arrays.
+
+Syntax Code :
+
+```java
+int[] arr1;                         // declaration
+int[] arr2 = new int[2];            // definition [Memory Allocation]
+arr2 = {12,34};                     // Initialization
+```
+
+- **Accessing** : Each element in the array is accessed via its index. The index begins with 0 and ends at (total array size)-1. All the elements of array can be accessed using Java for Loop.
+
+Syntax Code : 
+
+```java
+for(int i = 0;i < length_of_array;i++)
+    System.out.println(array[i]);
+```
+
+- **Cloning** : In this particular operation a particular copy of an array is created deeply, copies of the elements as opposed to references.
+
+Syntax Code : 
+
+```java
+int[] new_array = old_array.clone();
+```
+
+#### Note : The Code Content will be available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/arr_cls.java)
+
 ## Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
