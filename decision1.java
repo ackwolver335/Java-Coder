@@ -71,5 +71,6 @@ class decision1{
                 System.out.println("This is a default statement !");
         }
 
+    scn.close();
     }
 }
