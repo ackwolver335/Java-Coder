@@ -85,5 +85,6 @@ class Inout{
         System.out.printf("String all in upper case using formatting : %S\n",str1);
         System.out.printf("String all in lower case using formatting : %s\n",str1);
 
+        scn.close();
     }
 }
