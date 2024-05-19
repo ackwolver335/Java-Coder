@@ -1024,6 +1024,86 @@ Note : The Code Content will be available on this [link](https://github.com/ackw
 
 Note : The Code is available on this [link](https://github.com/ackwolver335/Java-Coder/blob/main/arr_mds.java)
 
+## Multidimensional Arrays
+
+Multidimensional Arrays can be defined in simple words as array of arrays. Data in multidimensional arrays are stored in tabular form (in row major order).
+
+Syntax Code : 
+
+```java
+import java.util.Arrays;
+int[][] twoD_arr = new int[2][3];           // 2 Rows and 3 Columns
+int[][][] threeD_arr = new int[2][2][2]     // 2 Rows and 2 Columns and 2 z-directional flow
+
+// Accessing Elements
+System.out.println("Array's First Row " + Arrays.toString(arr[0]));
+```
+
+Note : At the Basic level of concept the code [link](https://github.com/ackwolver335/Java-Coder/blob/main/arr_multi.java) is here.
+
+## Categories of Arrays
+
+- **Jagged Arrays** : A jagged array is an array of arrays such that member arrays can be of different sizes, i.e., we can create a 2-D array but with a variable number of columns in each row. These types of arrays are also known as Jagged arrays.
+
+Syntax Code : 
+
+```java
+int arr[][] = new int[3][];                 // initializing array first
+arr[0] = new int[2];                        // Number of elements in first row
+arr[1] = new int[3];                        // Number of elements in second row
+arr[2] = new int[2];                        // Number of elements in third row
+```
+
+Code Link : [Click_me](https://github.com/ackwolver335/Java-Coder/blob/main/arr_jagg.java)
+
+- **Final Arrays** : The array arr is declared as final, but the elements of an array are changed without any problem. Arrays are objects and object variables are always references in Java. So, when we declare an object variable as final, it means that the variable cannot be changed to refer to anything else.
+
+Syntax Code : 
+
+```java
+final int arr[] = new int[3];
+```
+
+Code Link : [Click_me](https://github.com/ackwolver335/Java-Coder/blob/main/arr_final.java)
+
+- **Reflect Arrays** : The Array class in java.lang.reflect package is a part of the Java Reflection. This class provides static methods to create and access Java arrays dynamically. It is a final class, which means it can’t be instantiated or changed. Only the methods of this class can be used by the class name itself.
+
+Syntax Code : 
+
+```java
+import java.lang.reflect.Array;
+import java.util.Arrays;
+int size1 = 3;
+int[] array_name = (int[])Array.newInstance(int.class,size1);
+
+Array.setInt(array_name,0,12);          // For Setting Element value
+System.out.println("Element of the array : " + Arrays.toString(Array.getInt(array_name,0)));
+```
+
+Code Link : [Click_me](https://github.com/ackwolver335/Java-Coder/blob/main/arr_reflect.java)
+
+### Methods of Reflect Arrays
+
+| **Method Name** | **Uses** |
+| :-------------- | :------- |
+| **get()** | ***Used to get a particular array's element with the help of its index*** |
+| **getBoolean()** | ***Used to get a particular array's element with specified index, if the array is of Boolean Data Type*** |
+| **getByte()** | ***Used to get a particular element of array as per specified index, if the array is of Byte Data Type*** |
+| **getChar()** | ***Used to get a particular element with its index, if the array is of Char Data Type*** |
+| **getDouble()** | ***Used to get a particular element with its index, if the array is of Double Data Type*** |
+| **getFloat()** | ***Used to get a particular element with its index, if the array is of Float Data Type*** |
+| **getInt()** | ***Used to get a particular element with its index, if the array is of Int Data Type*** |
+| **getShort()** | ***Used to get a particular element with its index, if the array is of Short Data Type*** |
+| **newInstance()** | ***Used to create a new array with a specified component type and length*** |
+| **set()** | ***Used to change the value of a particular element with its index*** |
+| **setBoolean()** | ***Used to set the value of a particular element with its index as per, if the data type is Boolean*** |
+| **setByte()** | ***Used to set the value of a particular element with its index as per, if the data type is Byte*** |
+| **setChar()** | ***Used to set the value of a particular element with its index as per, if the data type is Char*** |
+| **setInt()** | ***Used to set the value of a particular element with its index as per, if the data type is Int*** |
+| **setDouble()** | ***Used to set the value of a particular element with its index as per, if the data type is Double*** |
+
+Code Link : [Click_me](https://github.com/ackwolver335/Java-Coder/blob/main/arr_reflect.java)
+
 ## Social Media Links :
 
 - [Instagram Page](https://www.instagram.com/coding.needs/)
