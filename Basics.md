@@ -73,6 +73,22 @@ We also have following Loaders in **Initialization Phase** :-
 
 ![Working of JVM](https://github.com/ackwolver335/Java-Coder/assets/103741432/398fa016-97ad-4961-ab89-2680dad5c8b7)
 
+### Java Native Interface
+
+It is mainly used for interaction with the Native Method's Libraries and also provides native libraries(C/C++) required for the execution. It helps/enables **JVM** to call C/C++ *Libraries* and to be called by C/C++ *Libraries* which may be Hardware Dependent.
+
+### Different B/W JDK,JRE and JVM
+
+![Difference BW Components](https://github.com/ackwolver335/Java-Coder/assets/103741432/0b12e7e1-5e36-4966-a77b-45caa26134ad)
+
+### Execution Engines
+
+Execution engine executes the “.class” (bytecode). It reads the byte-code line by line, uses data and information present in various memory area and executes instructions. It can be classified into three parts:
+
+- **Interpreter** : It interprets the bytecode line by line and then executes. The disadvantage here is that when one method is called multiple times, every time interpretation is required.
+- **Just-In-Time Compiler(JIT)** : It is used to increase the efficiency of an interpreter. It compiles the entire bytecode and changes it to native code so whenever the interpreter sees repeated method calls, JIT provides direct native code for that part so re-interpretation is not required, thus efficiency is improved.
+- **Garbage Collector**: It destroys un-referenced objects. For more on Garbage Collector, refer Garbage Collector.
+
 ### Different Memories of JVM 
 
 - **Method Area** ->> In this all the properties of a *Class* together by the *static* variables are stored, also each JVM have only one Method Area together by being a shared resource.
