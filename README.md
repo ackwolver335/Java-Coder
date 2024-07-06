@@ -1110,6 +1110,19 @@ Code Link : [Click_me](https://github.com/ackwolver335/Java-Coder/blob/main/arr_
 - [Whatsapp Channel](https://whatsapp.com/channel/0029VaA2aK7DeON5LRUhRr28)
 - [Discord Channel](https://discord.com/invite/CGcEFwdY)
 
-## Feedback
+## 📫 How to Reach Me
 
-If you wants to give any kind of feedback or query, I m surely active on my social media handles !
+- **Email** - abhaych335@gmail.com
+- **Instagram** - [@being_chaudhary.ig](https://www.instagram.com/coding.needs/)
+- **Twitter** - [@AbhayCh84760](https://x.com/AbhayCh84760)
+
+## Support Me
+
+If you likes what I do and want to support me :
+
+- Give me a ⚡️ Star on my Repo
+- Share my [work](https://github.com/ackwolver335/Java-Coder) and [profile](https://github.com/ackwolver335) with your network
+
+Thanks for visiting my Github Repo ! Hope you find my projects useful, helpful and inspiring. Let's connect and collaborate to build something amazing !
+
+Abhay Chaudhary [Ack Wolver](https://github.com/ackwolver335/ackwolver335) !
